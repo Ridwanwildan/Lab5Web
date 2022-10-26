@@ -51,4 +51,49 @@ Alert berfungsi untuk menampilkan pesan pada saat file tersebut dibuka.
 
 ![Gambar 2](Screenshoots/Capture2.PNG)       
 
-##
+## Pemakaian Method Dalam Objek
+
+Untuk pemakaian method dalam objek, contohnya adalah seperti ini :         
+
+```bash
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Skrip javascript</title>
+    </head>
+    <body>
+        Percobaan memakai javascript :<br>
+        <script language = "javascript">
+            document.write("Selamat mencoba javaascript<br>");
+            document.write("Semoga Sukses");
+        </script>
+    </body>
+</html>
+```         
+
+![Gambar 3](Screenshoots/Capture3.PNG)        
+
+## pemakaian Prompt
+
+Prompt digunakan untuk melakukan input didalam website melalui javascript. Isi form nama       
+kemudian klik oke maka hasilnya akan terlihat seperti ini :           
+
+```bash
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pemasukan Data</title>
+    </head>
+    <body>
+        Percobaan memakai javascript :<br>
+        <script language = "javascript">
+            var nama = prompt("Siapa nama anda?","Masukkan nama anda");
+            document.write("hai "+nama);
+        </script>
+    </body>
+</html>
+```         
+
+![Gambar 4](Screenshoots/Capture4.PNG)        
+
+![Gambar 5](Screenshoots/Capture5.PNG)        
