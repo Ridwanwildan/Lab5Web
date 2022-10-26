@@ -120,3 +120,31 @@ Kemudian salah satu cara untuk memanggilnya yaitu dengan menggunakan atribut `on
 ```         
 
 ![Gambar 6](Screenshoots/Capture6.PNG)        
+
+## Operasi Dasar Aritmatika
+
+```bash
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contoh Program Javascript</title>
+    </head>
+    <script language = "javascript">
+        function test (val1,val2) {
+            document.write("<br>"+"perkalian : val1*val2"+"<br>")
+            document.write(val1*val2)
+            document.write("<br>"+"pembagian : val1/val2"+"<br>")
+            document.write(val1/val2)
+            document.write("<br>"+"penjumlahan : val1+val2"+"<br>")
+            document.write(val1+val2)
+            document.write("<br>"+"pengurangan : val1-val2"+"<br>")
+            document.write(val1-val2)
+            document.write("<br>"+"modulus : val1%val2"+"<br>")
+            document.write(val1%val2)
+        }
+    </script>
+    <body>
+        <input type="button" name="button1" value="arithmetic" onclick=test(9,4)>
+    </body>
+</html>
+```         
