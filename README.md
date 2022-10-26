@@ -97,3 +97,26 @@ kemudian klik oke maka hasilnya akan terlihat seperti ini :
 ![Gambar 4](Screenshoots/Capture4.PNG)        
 
 ![Gambar 5](Screenshoots/Capture5.PNG)        
+
+## Fungsi
+
+Untuk menggunakan fungsi pada javascript, caranya adalah masukkan fungsi kedalam tag `<script>`          
+Kemudian salah satu cara untuk memanggilnya yaitu dengan menggunakan atribut `onload` pada tag `<body>`.          
+
+```bash
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contoh Program Javascript</title>
+    </head>
+    <script language = "javascript">
+        function pesan() {
+            alert ("memanggil javascript lewat body onload")
+        }
+    </script>
+    <body onload=pesan()>
+    </body>
+</html>
+```         
+
+![Gambar 6](Screenshoots/Capture6.PNG)        
