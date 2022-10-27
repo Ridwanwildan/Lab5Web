@@ -237,3 +237,42 @@ Untuk membuat form input menggunakan javascript contohnya adalah seperti ini :
 ```           
 
 ![Gambar 13](Screenshoots/Capture13.PNG)          
+
+## Form Button
+
+Form button contohnya adalah seperti ini :            
+
+```bash
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Objek Dokumen
+        </title>
+    </head>
+    <body>
+        <script language = "javascript">
+            function ubahWarnaLB(warna) {
+                document.bgColor = warna;
+            }
+            function ubahWarnaLD(warna) {
+                document.fgColor = warna;
+            }
+        </script>
+        <h1>tes</h1>
+        <form>
+            <input type="button" value="Latar belakang hijau" onClick="ubahWarnaLB('GREEN')">
+            <input type="button" value="Latar belakang putih" onClick="ubahWarnaLB('WHITE')">
+            <input type="button" value="Teks kuning" onClick="ubahWarnaLD('YELLOW')">
+            <input type="button" value="Teks biru" onClick="ubahWarnaLD('BLUE')">
+        </form>
+        <script language="javascript">
+            document.write("Dimodifikasi terakhir pada " + document.lastModified);
+        </script>
+    </body>
+</html>
+```           
+
+![Gambar 14](Screenshoots/Capture14.PNG)          
+
+![Gambar 15](Screenshoots/Capture15.PNG)          
