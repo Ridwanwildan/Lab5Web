@@ -180,3 +180,48 @@ Contoh untuk melakukan seleksi kondisi (if-else) adalah seperti ini :
 ![Gambar 9](Screenshoots/Capture9.PNG)          
 
 ![Gambar 10](Screenshoots/Capture10.PNG)          
+
+## Switch untuk Seleksi Kondisi
+
+Selain menggunakan if-else, seleksi kondisi juga bisa dilakukan dengan menggunakan        
+switch. Contohnya adalah seperti ini :             
+
+```bash
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contoh program javascript</title>
+    </head>
+    <script language = "javascript">
+        function test () {
+            val1 = window.prompt("Input nilai (1-5): ")
+            switch (val1) {
+                case "1":
+                    document.write("bilangan satu")
+                    break
+                case "2":
+                    document.write("bilangan dua")
+                    break
+                case "3":
+                    document.write("bilangan tiga")
+                    break
+                case "4":
+                    document.write("bilangan empat")
+                    break
+                case "5":
+                    document.write("bilangan lima")
+                    break
+                default:
+                    document.write("bilangan lainnya")
+            }
+        }
+    </script>
+    <body>
+        <input type="button" name="button1" value="switch" onclick=test()>
+    </body>
+</html>
+```           
+
+![Gambar 11](Screenshoots/Capture11.PNG)          
+
+![Gambar 12](Screenshoots/Capture12.PNG)          
