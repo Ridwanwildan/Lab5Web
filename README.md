@@ -190,32 +190,10 @@ switch. Contohnya adalah seperti ini :
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contoh program javascript</title>
+        <script language = "javascript">
+        function
+        </script>
     </head>
-    <script language = "javascript">
-        function test () {
-            val1 = window.prompt("Input nilai (1-5): ")
-            switch (val1) {
-                case "1":
-                    document.write("bilangan satu")
-                    break
-                case "2":
-                    document.write("bilangan dua")
-                    break
-                case "3":
-                    document.write("bilangan tiga")
-                    break
-                case "4":
-                    document.write("bilangan empat")
-                    break
-                case "5":
-                    document.write("bilangan lima")
-                    break
-                default:
-                    document.write("bilangan lainnya")
-            }
-        }
-    </script>
     <body>
         <input type="button" name="button1" value="switch" onclick=test()>
     </body>
@@ -225,3 +203,37 @@ switch. Contohnya adalah seperti ini :
 ![Gambar 11](Screenshoots/Capture11.PNG)          
 
 ![Gambar 12](Screenshoots/Capture12.PNG)          
+
+## Form Input
+
+Untuk membuat form input menggunakan javascript contohnya adalah seperti ini :            
+
+```bash
+<!DOCTYPE html>
+<html>
+    <head>
+        <script language = "javascript">
+            function test() {
+                var val1 = document.kirim.T1.value
+                if (val1%2==0)
+                    document.kirim.T2.value="bilangan genap"
+                else
+                    document.kirim.T2.value="bilangan ganjil"
+            }
+        </script>
+    </head>
+    <body>
+        <form method="POST" name="kirim">
+            <p>
+                BIL <input type="text" name="T1" size="20">
+                MERUPAKAN BIL <input type="text" name="T2" size="20">
+            </p>
+            <p>
+                <input type="button" value="tebak" name="B1" onclick="test()">
+            </p>
+        </form>
+    </body>
+</html>
+```           
+
+![Gambar 13](Screenshoots/Capture13.PNG)          
