@@ -147,4 +147,36 @@ Kemudian salah satu cara untuk memanggilnya yaitu dengan menggunakan atribut `on
         <input type="button" name="button1" value="arithmetic" onclick=test(9,4)>
     </body>
 </html>
-```         
+```           
+
+![Gambar 7](Screenshoots/Capture7.PNG)          
+
+![Gambar 8](Screenshoots/Capture8.PNG)          
+
+## Seleksi Kondisi
+
+Contoh untuk melakukan seleksi kondisi (if-else) adalah seperti ini :            
+
+```bash
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contoh if-else</title>
+    </head>
+    <script language = "javascript">
+        var nilai = prompt("nilai (0-100): ", 0);
+        var hasil = "";
+        if (nilai => 60)
+            hasil = "lulus";
+        else
+            hasil = "tidak lulus";
+        document.write("hasil: " + hasil);
+    </script>
+    <body>
+    </body>
+</html>
+```           
+
+![Gambar 9](Screenshoots/Capture9.PNG)          
+
+![Gambar 10](Screenshoots/Capture10.PNG)          
