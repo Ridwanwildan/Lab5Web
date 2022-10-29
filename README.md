@@ -7,6 +7,20 @@
 
 Dalam latihan javascript ini, saya menggunakan [Google Chrome](https://www.google.com/intl/id_id/chrome/) sebagai web browser dan [visual studio code](https://code.visualstudio.com/) sebagai teks editornya.       
 
+Daftar isi :          
+* [Javascript Dasar](https://github.com/Ridwanwildan/Lab5Web#javascript-dasar)         
+* [Alert](https://github.com/Ridwanwildan/Lab5Web#alert)         
+* [Pemakaian Method Dalam Objek](https://github.com/Ridwanwildan/Lab5Web#pemakaian-method-dalam-objek)         
+* [pemakaian Prompt](https://github.com/Ridwanwildan/Lab5Web#pemakaian-prompt)         
+* [Fungsi](https://github.com/Ridwanwildan/Lab5Web#fungsi)         
+* [Operasi Dasar Aritmatika](https://github.com/Ridwanwildan/Lab5Web#operasi-dasar-aritmatika)         
+* [Seleksi Kondisi](https://github.com/Ridwanwildan/Lab5Web#seleksi-kondisi)         
+* [Switch untuk Seleksi Kondisi](https://github.com/Ridwanwildan/Lab5Web#switch-untuk-seleksi-kondisi)         
+* [Form Input](https://github.com/Ridwanwildan/Lab5Web#form-input)         
+* [Form Button](https://github.com/Ridwanwildan/Lab5Web#form-button)         
+* [HTML DOM](https://github.com/Ridwanwildan/Lab5Web#html-dom)         
+* [Pertanyaan dan Tugas](https://github.com/Ridwanwildan/Lab5Web#pertanyaan-dan-tugas)         
+
 ## Javascript Dasar
 
 Buat file HTML baru kemudian isi seperti ini :          
@@ -325,3 +339,12 @@ Contoh menggunakan HTML DOM adalah seperti ini :
 ```           
 
 ![Gambar 16](Screenshoots/Capture16.PNG)          
+
+## Pertanyaan dan Tugas
+
+* Buat script untuk melakukan validasi pada isian form             
+[Folder Tugas](https://github.com/Ridwanwildan/Lab5Web/tree/main/Tugas)                      
+
+![Gambar 17](Screenshoots/Capture17.PNG)          
+
+![Gambar 18](Screenshoots/Capture18.PNG)          
